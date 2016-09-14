@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body {
   background: url("../../images/background.png"); }
 
@@ -507,5 +508,105 @@ html, body {
     background: #DA0052; }
     #sports #recipes .left_right:hover i {
       color: white; }
+=======
+html {
+  font-family: sans-serif; }
+
+.displayInline {
+  display: inline-block; }
+
+ul {
+  margin-bottom: 0; }
+
+.list-inline {
+  margin-left: 0; }
+
+#header .topHeader {
+  min-height: 32px;
+  background-color: #F9F9F9;
+  border-top: 4px solid #009688;
+  border-bottom: 1px solid #e9e9e9; }
+  #header .topHeader .topHeaderWeather {
+    margin-right: 32px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    font-size: 13px;
+    font-weight: 600; }
+  #header .topHeader .topHeaderNav a {
+    text-decoration: none;
+    color: #2f2f2f;
+    font-size: 11px;
+    line-height: 27px; }
+  #header .topHeader .topHeaderNav a:hover {
+    color: #009688; }
+  #header .topHeader .topHeaderSocial {
+    padding-top: 3px;
+    padding-bottom: 2px; }
+    #header .topHeader .topHeaderSocial a {
+      text-decoration: none;
+      color: #2f2f2f; }
+    #header .topHeader .topHeaderSocial a:hover {
+      color: #009688; }
+#header .add {
+  background-color: white; }
+  #header .add ul li:first-child {
+    margin: 28px; }
+  #header .add ul li:last-child {
+    margin-top: 28px;
+    margin-bottom: 28px; }
+#header nav {
+  font-weight: 600;
+  border-radius: 0;
+  border-bottom: 5px solid #009688; }
+  #header nav a {
+    color: white; }
+
+#footer {
+  margin: 0; }
+  #footer .background {
+    min-height: 383px;
+    background: url("../../img/bg.png");
+    background-color: black; }
+  #footer ul {
+    margin-left: 131px;
+    margin-right: 131px; }
+    #footer ul li:first-child {
+      margin-top: 50px;
+      margin-bottom: 20px; }
+    #footer ul li:nth-child(2) {
+      color: white; }
+    #footer ul li:nth-child(3) {
+      margin-top: 21px;
+      margin-bottom: 21px;
+      color: white; }
+      #footer ul li:nth-child(3) a {
+        color: #009688;
+        text-decoration: none; }
+    #footer ul i {
+      color: white;
+      border: 1px solid #fff;
+      padding: 10px; }
+    #footer ul i:hover {
+      color: #009688; }
+  #footer .bottom {
+    min-height: 35px;
+    background-color: black;
+    color: white;
+    font-size: 12px; }
+    #footer .bottom p {
+      margin-top: 11px;
+      margin-left: 50px; }
+    #footer .bottom ul {
+      margin: 0;
+      margin-top: 11px;
+      margin-right: 50px; }
+      #footer .bottom ul li {
+        margin: 0; }
+        #footer .bottom ul li a {
+          text-decoration: none;
+          color: white; }
+        #footer .bottom ul li a:hover {
+          color: #009688; }
+>>>>>>> 814680c586592942900282c03aae32bfaa8570ef
 
 /*# sourceMappingURL=style.css.map */
