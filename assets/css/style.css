@@ -4,6 +4,18 @@ html, body {
 .container {
   background: white; }
 
+.height {
+  height: 60px; }
+
+.height2 {
+  height: 20px; }
+
+.margin {
+  margin: 0px; }
+
+.padding {
+  padding: 0px; }
+
 #boxs {
   height: 410px; }
   #boxs .test {
@@ -26,8 +38,7 @@ html, body {
       background: black;
       color: white;
       border: none;
-      height: 15px;
-      font-weight: 100;
+      font-weight: 600;
       font-size: 10px;
       padding: 0 7px 0 7px; }
     #boxs .boxDesc button:hover {
@@ -46,8 +57,7 @@ html, body {
       background: black;
       color: white;
       border: none;
-      height: 15px;
-      font-weight: 100;
+      font-weight: 600;
       font-size: 10px;
       padding: 0 7px 0 7px; }
     #boxs .boxDesc2 button:hover {
@@ -146,14 +156,12 @@ html, body {
     color: white; }
     #TravelGuides .travelBtn button {
       background: black;
-      height: 23px;
       border: none; }
       #TravelGuides .travelBtn button a {
         text-decoration: none;
         color: white;
-        font-weight: 200;
-        font-size: 10px;
-        padding: 0 7px 0 7px; }
+        font-weight: 600;
+        font-size: 10px; }
     #TravelGuides .travelBtn button:hover {
       background: #5EB14C; }
   #TravelGuides .travelTitle a {
@@ -188,9 +196,9 @@ html, body {
       #TravelGuides #tech .techImg .techBtn button {
         background: black;
         color: white;
-        font-weight: 100;
+        font-weight: 600;
         border: none;
-        height: 20px; }
+        font-size: 10px; }
       #TravelGuides #tech .techImg .techBtn button:hover {
         background: #2E38AD; }
   #TravelGuides #tech .techDesc a {
@@ -250,9 +258,9 @@ html, body {
       #TravelGuides #health .healthImg .healthBtn button {
         background: black;
         color: white;
-        font-weight: 100;
-        border: none;
-        height: 20px; }
+        font-weight: 600;
+        font-size: 10px;
+        border: none; }
       #TravelGuides #health .healthImg .healthBtn button:hover {
         background: #DA0052; }
   #TravelGuides #health .healthDesc a {
@@ -322,10 +330,10 @@ html, body {
   #TravelGuides #mostPopular .mostPopular .mostTitle button {
     background: black;
     color: white;
-    font-weight: 100;
+    font-weight: 600;
     border: none;
+    font-size: 10px;
     margin-left: 15px;
-    height: 20px;
     padding-top: 0px;
     padding-bottom: 0px; }
   #TravelGuides #mostPopular .mostPopular .mostTitle button:hover {
@@ -377,9 +385,8 @@ html, body {
         background: red;
         border: none;
         color: white;
-        font-weight: 100;
-        height: 18px;
-        padding-bottom: 20px; }
+        font-weight: 600;
+        font-size: 10px; }
       #center .fashion .fashionImg .fashionDesc .fashionTitle {
         background: black;
         opacity: 0.4;
@@ -395,7 +402,7 @@ html, body {
             padding-bottom: 15px; }
 
 #sports {
-  min-height: 1010px; }
+  min-height: 980px; }
   #sports .row h5 {
     font-size: 18px;
     font-weight: 500;
@@ -507,5 +514,95 @@ html, body {
     background: #DA0052; }
     #sports #recipes .left_right:hover i {
       color: white; }
+
+#watchNow {
+  min-height: 450px; }
+  #watchNow img {
+    margin-left: 50px; }
+
+#latestArticles .row h5 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 17px; }
+#latestArticles .row .latestImg {
+  position: relative;
+  width: 324px;
+  height: 160px;
+  margin-top: 20px; }
+  #latestArticles .row .latestImg img {
+    width: 100%;
+    height: 100%; }
+  #latestArticles .row .latestImg .latestBtn {
+    position: absolute;
+    bottom: 0px; }
+    #latestArticles .row .latestImg .latestBtn button {
+      background: black;
+      font-size: 10px;
+      color: white;
+      font-weight: 600;
+      border: none; }
+    #latestArticles .row .latestImg .latestBtn button:hover {
+      background: #009688; }
+#latestArticles .row .latestDesc a {
+  text-decoration: none; }
+  #latestArticles .row .latestDesc a h5 {
+    color: black;
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 400; }
+  #latestArticles .row .latestDesc a h5:hover {
+    color: #009688; }
+#latestArticles .row .latestDesc p {
+  color: #aaa;
+  font-size: 11px; }
+  #latestArticles .row .latestDesc p span {
+    color: black; }
+#latestArticles nav {
+  margin-left: 20px; }
+  #latestArticles nav a {
+    margin-right: 5px;
+    border: 1px solid #e3e3e3;
+    line-height: 21px;
+    font-size: 12px;
+    color: #444; }
+  #latestArticles nav a:hover {
+    background: #444;
+    color: white; }
+#latestArticles #mustRead a {
+  text-decoration: none; }
+  #latestArticles #mustRead a h5 {
+    color: black;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500; }
+  #latestArticles #mustRead a h5:hover {
+    color: #009688; }
+#latestArticles #mustRead .row button {
+  background: black;
+  font-size: 10px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  float: left;
+  margin-right: 10px; }
+#latestArticles #mustRead .row button:hover {
+  background: #009688; }
+#latestArticles #mustRead .row p {
+  color: #aaa;
+  font-size: 11px; }
+  #latestArticles #mustRead .row p span {
+    color: black; }
+#latestArticles #categories {
+  margin-top: 40px; }
+  #latestArticles #categories .row ul {
+    list-style: none; }
+    #latestArticles #categories .row ul a {
+      text-decoration: none;
+      color: #111;
+      line-height: 30px;
+      font-size: 14px;
+      font-family: 'Open Sans',arial,sans-serif; }
+    #latestArticles #categories .row ul a:hover {
+      color: #009688; }
 
 /*# sourceMappingURL=style.css.map */
